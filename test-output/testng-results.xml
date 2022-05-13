@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-19T13:13:30 IST" name="Default suite" finished-at="2022-04-19T13:13:43 IST" duration-ms="13306">
+    <groups>
+    </groups>
+    <test started-at="2022-04-19T13:13:30 IST" name="Default test" finished-at="2022-04-19T13:13:43 IST" duration-ms="13306">
+      <class name="Academy.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.HomePage@77a7cf58]" started-at="2022-04-19T13:13:30 IST" name="initialize" finished-at="2022-04-19T13:13:32 IST" duration-ms="2974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePage@77a7cf58]" started-at="2022-04-19T13:13:33 IST" name="basePageNavigation" data-provider="getData" finished-at="2022-04-19T13:13:42 IST" duration-ms="9308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.HomePage@77a7cf58]" started-at="2022-04-19T13:13:42 IST" name="tearDown" finished-at="2022-04-19T13:13:43 IST" duration-ms="995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
